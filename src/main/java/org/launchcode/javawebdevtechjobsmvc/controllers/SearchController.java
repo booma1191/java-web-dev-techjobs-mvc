@@ -24,8 +24,7 @@ public class SearchController {
     }
 
     // TODO #3 - Create a handler to process a search request and render the updated search view.
-    @RequestMapping(value="results", method = {RequestMethod.GET, RequestMethod.POST})
-    @ResponseBody
+    @RequestMapping(value="search", method = {RequestMethod.GET, RequestMethod.POST})
     public String displaySearchResults(String results) {
         return results;
     }//filler atm
