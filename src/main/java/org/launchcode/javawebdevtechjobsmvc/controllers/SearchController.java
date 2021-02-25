@@ -42,4 +42,5 @@ public class SearchController {
         }
         return "search";
     }
+    //lol im adding this so it will let me commit
 }
